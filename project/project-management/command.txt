@@ -1,0 +1,15 @@
+# docker up
+docker-compose up -d nginx mysql
+
+# docker down
+docker-compose down
+
+# 進入 var/www 
+docker-compose exec workspace bash
+
+# 權限出現問題？進入 var/www 後
+chmod -R 777
+
+# 調整管理員權限的身分組
+sudo usermod -aG docker root
+sudo usermod -aG docker www-data
