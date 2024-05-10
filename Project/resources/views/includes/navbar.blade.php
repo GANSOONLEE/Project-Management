@@ -25,7 +25,7 @@
     div.menu {
         display: flex;
         align-items: center;
-        column-gap: 1.6rem;
+        column-gap: 3rem;
     }
 
     a.menu__link {
@@ -63,10 +63,10 @@
     <button class="open__menu">Open</button>
 
     <div class="menu">
-        <a class="menu__link" href="#">首頁</a>
-        <a class="menu__link" href="#">服務</a>
-        <a class="menu__link" href="#">作品集</a>
-        <a class="menu__link" href="#">關於我</a>
+        <a class="menu__link" href="#home">首頁</a>
+        <a class="menu__link" href="#service">服務</a>
+        <a class="menu__link" href="#portfolio">作品集</a>
+        <a class="menu__link" href="#about-me">關於我</a>
 
         @guest
         <a class="menu__link link__login" href="#">登入</a>

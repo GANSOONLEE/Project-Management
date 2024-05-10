@@ -12,4 +12,13 @@
 
 html {
     overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
