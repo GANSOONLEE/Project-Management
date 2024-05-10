@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-        @vite("resource/css/app.css")
+        <link rel="stylesheet" href="https://improved-adventure-p5vv7w5qx6jc7pgp-5174.app.github.dev/improved-adventure-p5vv7w5qx6jc7pgp-5173.app.github.dev/resources/css/app.css">
 
         <!-- Styles -->
         <style>
