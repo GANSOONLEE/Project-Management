@@ -21,4 +21,3 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
-gcloud compute ssh --zone us-central1-c instance-20240509-141041 --project project-management-422814
